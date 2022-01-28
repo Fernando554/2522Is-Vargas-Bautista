@@ -72,27 +72,6 @@
 										<li><a href="{{route('inicio')}}">Homepage</a></li>
 										<li><a href="{{route('generic')}}">Videojuegos</a></li>
 										<li><a href="{{route('elements')}}">Dragon ball</a></li>
-										<li>
-											<span class="opener">Series favoritas</span>
-											<ul>
-												<li><a href="#">The mandalorian</a></li>
-												<li><a href="#">Spectacular spiderman</a></li>
-												<li><a href="#">Peacemaker</a></li>
-												<li><a href="#">Transformers prime</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Figuras favoritas</a></li>
-										<li><a href="#">Opinion videojuegos</a></li>
-										<li>
-											<span class="opener">Peliculas favoritas</span>
-											<ul>
-												<li><a href="#">El señor de los anillos el retorno del rey</a></li>
-												<li><a href="#">Godzilla king of the monsters</a></li>
-												<li><a href="#">Dragon ball super broly</a></li>
-												<li><a href="#">Tron el legado</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Platillos preferidos</a></li>
 									</ul>
 								</nav>
 
