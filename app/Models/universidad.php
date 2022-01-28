@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 
-class Universidad
+class universidad
 {
    public $nombre;
    public $edad;

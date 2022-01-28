@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Universidad;
+use App\Models\universidad;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,7 @@ use App\Models\Universidad;
 */
 
 Route::get('/', function () {
-    $uni = new Universidad();
+    $uni = new universidad();
     $uni->nombre = "Fernando Vargas Bautista";
     $uni->edad = "19";
     $uni->pais = "Mexico";
@@ -22,7 +22,7 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::get('/generic', function () {
-    $uni = new Universidad();
+    $uni = new universidad();
     $uni->nombre = "Fernando Vargas Bautista";
     $uni->edad = "19";
     $uni->pais = "Mexico";
@@ -30,7 +30,7 @@ Route::get('/generic', function () {
 })->name('generic');
 
 Route::get('/elements', function () {
-    $uni = new Universidad();
+    $uni = new universidad();
     $uni->nombre = "Fernando Vargas Bautista";
     $uni->edad = "19";
     $uni->pais = "Mexico";
